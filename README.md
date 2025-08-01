@@ -11,3 +11,6 @@ npm run dev
 - Artwork table
 - PrimeReact UI
 - Type-safe with TypeScript
+
+# Deployed on Netlify
+https://artworks-dashboard.netlify.app/
