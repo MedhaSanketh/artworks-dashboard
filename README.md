@@ -5,3 +5,9 @@
 ```bash
 npm install
 npm run dev
+```
+
+# Features
+- Artwork table
+- PrimeReact UI
+- Type-safe with TypeScript
