@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
 
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -74,7 +73,7 @@ body,html {
   margin-bottom: 1rem;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
 }
-/* Light themed paginator */
+
 .p-paginator {
   background-color: #f9f9f9 !important;
   border: 1px solid #ddd !important;
@@ -98,7 +97,7 @@ body,html {
   font-weight: bold;
   border-color: #aaa !important;
 }
-/* Card-like DataTable container */
+
 .table-wrapper {
   background-color: #fff;
   border-radius: 16px;
@@ -137,4 +136,22 @@ body,html {
 
 .brown-switch .p-inputswitch-slider {
   transition: background-color 0.2s ease !important;
+}
+.overlay-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.overlay-form label {
+  margin-bottom: 0.5rem;
+}
+
+.overlay-form .p-inputnumber {
+  margin-bottom: 1rem;
+}
+.custom-button {
+  background-color: lab(22.42% 40.42 28.18);
+  border-color: hsla(24, 95%, 83%, 0.689);
+  color: white;
 }

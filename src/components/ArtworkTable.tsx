@@ -149,14 +149,16 @@ export const ArtworkTable: React.FC = () => {
             />
             <OverlayPanel ref={op}>
               <div className="flex flex-column gap-3 p-2">
-                <label htmlFor="rowCountInput">Select rows</label>
-                <InputNumber
-                  inputId="rowCountInput"
-                  value={selectCount}
-                  onValueChange={(e) => setSelectCount(e.value ?? null)}
+                <div className="overlay-form">
+                  <label htmlFor="rowCountInput">Select rows</label>
+                  <InputNumber
+                    inputId="rowCountInput"
+                    value={selectCount}
+                    onValueChange={(e) => setSelectCount(e.value ?? null)}
 
-                />
-                <Button label="Submit" onClick={handleCustomSelect} />
+                  />
+                  <Button label="Submit" onClick={handleCustomSelect} className="custom-button" />
+                </div>
               </div>
             </OverlayPanel>
           </>
