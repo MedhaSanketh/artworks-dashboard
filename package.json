@@ -1,7 +1,7 @@
 {
-  "name": "reactapp",
+  "name": "art-gallery-app",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -29,5 +29,12 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.35.1",
     "vite": "^7.0.4"
-  }
+  },
+  "author": "Medha Sanketh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MedhaSanketh/artworks-dashboard.git"
+  },
+  "homepage": "https://MedhaSanketh.github.io/artworks-dashboard/"
 }
